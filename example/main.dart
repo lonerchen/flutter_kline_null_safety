@@ -8,15 +8,15 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_kline/packages/bloc/klineBloc.dart';
-import 'package:flutter_kline/packages/klinePage.dart';
+import 'package:flutter_kline_null_safety/packages/bloc/klineBloc.dart';
+import 'package:flutter_kline_null_safety/packages/klinePage.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:flutter_kline/packages/model/klineConstrants.dart';
+import 'package:flutter_kline_null_safety/packages/model/klineConstrants.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'package:flutter_kline/packages/model/klineModel.dart';
-import 'package:flutter_kline/packages/model/kline_data_model.dart';
+import 'package:flutter_kline_null_safety/packages/model/klineModel.dart';
+import 'package:flutter_kline_null_safety/packages/model/kline_data_model.dart';
 
 import 'package:http/http.dart' as http;
 

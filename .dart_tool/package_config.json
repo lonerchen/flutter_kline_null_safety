@@ -284,13 +284,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "flutter_kline",
+      "name": "flutter_kline_null_safety",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-01-18T03:25:06.080227Z",
+  "generated": "2024-01-18T06:42:50.981148Z",
   "generator": "pub",
   "generatorVersion": "3.0.0"
 }
