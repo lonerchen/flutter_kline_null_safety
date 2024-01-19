@@ -6,7 +6,7 @@
  * @LastEditTime: 2019-05-13 16:07:14
  */
 
-import 'package:flutter_kline_null_safety/packages/model/klineModel.dart';
+import 'package:flutter_kline/packages/model/klineModel.dart';
 
 enum YKChartType { Unknown, MA, VOL }
 

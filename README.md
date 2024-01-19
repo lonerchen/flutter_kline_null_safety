@@ -1,8 +1,8 @@
-# flutter_kline_null_safety
+# flutter_kline
 
 ## 效果图
 
-![](https://github.com/zhaojijin/flutter_kline_null_safety/blob/master/0002.gif)
+![](https://github.com/zhaojijin/flutter_kline/blob/master/0002.gif)
 
 ## Getting Started
 

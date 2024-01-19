@@ -8,10 +8,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBlocProvider.dart';
-import 'package:flutter_kline_null_safety/packages/manager/klineDataManager.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineModel.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineConstrants.dart';
+import 'package:flutter_kline/packages/bloc/klineBlocProvider.dart';
+import 'package:flutter_kline/packages/manager/klineDataManager.dart';
+import 'package:flutter_kline/packages/model/klineModel.dart';
+import 'package:flutter_kline/packages/model/klineConstrants.dart';
 import 'package:rxdart/rxdart.dart';
 
 class KlineBloc extends KlineBlocBase {

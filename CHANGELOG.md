@@ -14,3 +14,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - 修改描述
+
+## [1.0.3+4] - 2024-01-18
+
+### Added
+- 修改平台支持

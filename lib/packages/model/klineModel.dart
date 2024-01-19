@@ -7,7 +7,7 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineConstrants.dart';
+import 'package:flutter_kline/packages/model/klineConstrants.dart';
 // import "package:intl/intl.dart";
 
 class Market {

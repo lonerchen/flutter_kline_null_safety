@@ -9,10 +9,10 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBloc.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBlocProvider.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineConstrants.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineModel.dart';
+import 'package:flutter_kline/packages/bloc/klineBloc.dart';
+import 'package:flutter_kline/packages/bloc/klineBlocProvider.dart';
+import 'package:flutter_kline/packages/model/klineConstrants.dart';
+import 'package:flutter_kline/packages/model/klineModel.dart';
 
 class KlineCandleCrossWidget extends StatelessWidget {
   @override

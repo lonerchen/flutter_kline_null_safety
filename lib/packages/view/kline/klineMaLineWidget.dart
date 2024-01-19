@@ -6,10 +6,10 @@
  * @LastEditTime: 2019-04-25 11:47:15
  */
 import 'package:flutter/material.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBloc.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBlocProvider.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineConstrants.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineModel.dart';
+import 'package:flutter_kline/packages/bloc/klineBloc.dart';
+import 'package:flutter_kline/packages/bloc/klineBlocProvider.dart';
+import 'package:flutter_kline/packages/model/klineConstrants.dart';
+import 'package:flutter_kline/packages/model/klineModel.dart';
 
 class KlineMaLineWidget extends StatelessWidget {
   final YKMAType maType;

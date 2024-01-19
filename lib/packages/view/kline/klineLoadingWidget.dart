@@ -7,8 +7,8 @@
  */
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBloc.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBlocProvider.dart';
+import 'package:flutter_kline/packages/bloc/klineBloc.dart';
+import 'package:flutter_kline/packages/bloc/klineBlocProvider.dart';
 
 class KlineLoadingWidget extends StatelessWidget {
   @override

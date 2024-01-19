@@ -188,6 +188,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/chenjianwen/.pub-cache/hosted/pub.flutter-io.cn/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "pub_semver",
       "rootUri": "file:///Users/chenjianwen/.pub-cache/hosted/pub.flutter-io.cn/pub_semver-2.1.4",
       "packageUri": "lib/",
@@ -284,13 +290,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "flutter_kline_null_safety",
+      "name": "flutter_kline",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-01-18T06:42:50.981148Z",
+  "generated": "2024-01-18T07:11:13.659367Z",
   "generator": "pub",
   "generatorVersion": "3.0.0"
 }

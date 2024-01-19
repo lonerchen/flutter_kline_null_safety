@@ -6,16 +6,16 @@
  * @LastEditTime: 2019-04-25 11:44:32
  */
 import 'package:flutter/material.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineConstrants.dart';
-import 'package:flutter_kline_null_safety/packages/view/grid/klinePriceGridWidget.dart';
-import 'package:flutter_kline_null_safety/packages/view/grid/klineVolumeGridWidget.dart';
-import 'package:flutter_kline_null_safety/packages/view/kline/klineCandleCrossWidget.dart';
-import 'package:flutter_kline_null_safety/packages/view/kline/klineCandleInfoWidget.dart';
-import 'package:flutter_kline_null_safety/packages/view/kline/klineCandleWidget.dart';
-import 'package:flutter_kline_null_safety/packages/view/kline/klineLoadingWidget.dart';
-import 'package:flutter_kline_null_safety/packages/view/kline/klineMaLineWidget.dart';
-import 'package:flutter_kline_null_safety/packages/view/kline/klinePeriodSwitch.dart';
-import 'package:flutter_kline_null_safety/packages/view/kline/klineVolumeWidget.dart';
+import 'package:flutter_kline/packages/model/klineConstrants.dart';
+import 'package:flutter_kline/packages/view/grid/klinePriceGridWidget.dart';
+import 'package:flutter_kline/packages/view/grid/klineVolumeGridWidget.dart';
+import 'package:flutter_kline/packages/view/kline/klineCandleCrossWidget.dart';
+import 'package:flutter_kline/packages/view/kline/klineCandleInfoWidget.dart';
+import 'package:flutter_kline/packages/view/kline/klineCandleWidget.dart';
+import 'package:flutter_kline/packages/view/kline/klineLoadingWidget.dart';
+import 'package:flutter_kline/packages/view/kline/klineMaLineWidget.dart';
+import 'package:flutter_kline/packages/view/kline/klinePeriodSwitch.dart';
+import 'package:flutter_kline/packages/view/kline/klineVolumeWidget.dart';
 
 class KlineWidget extends StatelessWidget {
   @override

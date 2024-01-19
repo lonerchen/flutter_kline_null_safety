@@ -9,11 +9,11 @@ import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBloc.dart';
-import 'package:flutter_kline_null_safety/packages/bloc/klineBlocProvider.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineConstrants.dart';
-import 'package:flutter_kline_null_safety/packages/model/klineModel.dart';
-import 'package:flutter_kline_null_safety/packages/view/klineWidget.dart';
+import 'package:flutter_kline/packages/bloc/klineBloc.dart';
+import 'package:flutter_kline/packages/bloc/klineBlocProvider.dart';
+import 'package:flutter_kline/packages/model/klineConstrants.dart';
+import 'package:flutter_kline/packages/model/klineModel.dart';
+import 'package:flutter_kline/packages/view/klineWidget.dart';
 
 class KlinePageWidget extends StatelessWidget {
   final KlineBloc bloc;

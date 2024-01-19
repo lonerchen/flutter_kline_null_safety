@@ -1,14 +1,6 @@
-name: flutter_kline_null_safety
+name: flutter_kline
 description: A new Flutter Blockchain marker cap kline widget convenient access solution
 homepage: https://github.com/lonerchen/flutter_kline_null_safety
-
-platforms:
-  android:
-  ios:
-  linux:
-  macos:
-  web:
-  windows:
 
 
 # The following defines the version and build number for your application.
@@ -21,10 +13,11 @@ platforms:
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.2+3
+version: 1.0.3+4
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=1.12.0 <4.0.0"
 
 authorization: "https://www.bt-miners.com"
 
@@ -38,6 +31,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
   flutter_test:
@@ -50,11 +44,25 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  plugin:
+    platforms:
+      android:
+        package: com.btminers.kline.flutter_kline
+        pluginClass: FlutterKlinePlugin
+      ios:
+        pluginClass: FlutterKlinePlugin
+      linux:
+        pluginClass: FlutterKlinePlugin
+      macos:
+        pluginClass: FlutterKlinePlugin
+      windows:
+        pluginClass: FlutterKlinePluginCApi
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
